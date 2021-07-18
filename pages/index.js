@@ -14,11 +14,11 @@ export default function Home() {
       <main className={styles.container}>
         <div className={styles.gallery}>
           <div className={styles.img}>
-            <Image src="/1.jpg" width={700} height={500} alt="img" />
+            <Image src="/1.jpg" width={700} height={1050} alt="img" layout="responsive"/>
           </div>
 
           <div className={styles.img}>
-            <Image src="/3.jpg" width={700} height={500} alt="img" />
+            <Image src="/3.jpg" width={700} height={1050} alt="img" layout="responsive"/>
           </div>
           <div className={styles.gallery__text}>
             <h1>FALL / WINTER COLLECTION</h1>
@@ -55,7 +55,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.about_img}>
-          <Image src="/8.jpg" width={600} height={500} alt="img" />
+          <Image src="/8.jpg" width={700} height={1050} alt="img" layout="responsive"/>
           </div>
         </div>
 
