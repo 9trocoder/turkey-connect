@@ -1,0 +1,73 @@
+.container {
+    margin: 8rem 0;
+    display: grid;
+    grid-template-rows: min-content;
+    grid-template-columns: [full-start] 1fr [center-start] repeat(
+        8,
+        [col-start] minmax(min-content, 16rem) [col-end]
+      ) [center-end] 1fr [full-end];
+    z-index: -1;
+    padding: 0 2rem;
+  }
+
+  .about {
+    grid-row: 1;
+    margin: 20rem 2rem;
+    grid-column: center-start / center-end;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-gap: 8rem;
+  }
+
+  .btn {
+    background-color: #131313;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 2rem 3rem;
+    margin-left: auto;
+  }
+  
+
+  .about__text {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .about__text div {
+    display: grid;
+    grid-gap: 1rem;
+  }
+
+  .about_form {
+    border: 1px solid #E8EAED;
+    display: grid;
+    grid-gap: 4rem;
+    padding: 3rem 2rem;
+    justify-items: start;
+    
+  }
+
+  .emailbox{
+      background-color: #131313;
+      color: #ffffff;
+      
+  }
+
+  .emailbox div{
+      display: flex;
+      align-items: center;
+      padding: 2rem 2rem;
+      gap: 2rem;
+      flex-wrap: wrap;
+  }
+
+  .emailbox img {
+      filter: invert(1);
+      width: 24px;
+  }
