@@ -14,11 +14,11 @@ export default function Home() {
       <main className={styles.container}>
         <div className={styles.gallery}>
           <div className={styles.img}>
-            <img src="1.jpg" />
+            <Image src="/1.jpg" width={600} height={500} alt="img" />
           </div>
 
           <div className={styles.img}>
-            <img src="3.jpg" />
+            <Image src="/3.jpg" width={600} height={500} alt="img" />
           </div>
           <div className={styles.gallery__text}>
             <h1>FALL / WINTER COLLECTION</h1>
@@ -55,7 +55,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.about_img}>
-            <img src="8.jpg" />
+          <Image src="/8.jpg" width={600} height={500} alt="img" />
           </div>
         </div>
 
@@ -233,7 +233,7 @@ export default function Home() {
             <div className={styles.touch__features}>
               <div className={styles.touch_feature}>
                 <div>
-                  <img src="/phone.svg" alt="phone" />
+                <Image src="/phone.svg" width={20} height={20} alt="img" />
                   <h2>+90 536 603 09 97</h2>
                 </div>
                 <p>You can call us or contact us on whatsapp</p>
@@ -241,7 +241,7 @@ export default function Home() {
 
               <div className={styles.touch_feature}>
                 <div>
-                  <img src="/envelope.svg" alt="phone" />
+                <Image src="/envelope.svg" width={20} height={20} alt="img" />
                   <a href="mailto: yemicodes@gmail.com">
                     <h2>yemicodes@gmail.com</h2>{" "}
                   </a>
@@ -250,14 +250,14 @@ export default function Home() {
               </div>
               <div className={styles.touch_feature}>
                 <div>
-                  <img src="/location.svg" alt="phone" />
+                <Image src="/location.svg" width={20} height={20} alt="img" />
                   <h2>Gusmuskent City Corlu sehy. Mah.</h2>
                 </div>
                 <p>Visit Our office in Corlu, Turkey</p>
               </div>
               <div className={styles.touch_feature}>
                 <div>
-                  <img src="/location.svg" alt="phone" />
+                <Image src="/location.svg" width={20} height={20} alt="img" />
                   <h2>N0 45 Kushimo street Ebge Ikotun</h2>
                 </div>
                 <p>Visit Our office in Lagos Nigeria</p>

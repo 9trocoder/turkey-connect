@@ -56,13 +56,13 @@
   .emailbox{
       background-color: #131313;
       color: #ffffff;
+      padding: 2rem 2rem;
       
   }
 
   .emailbox div{
       display: flex;
       align-items: center;
-      padding: 2rem 2rem;
       gap: 2rem;
       flex-wrap: wrap;
   }

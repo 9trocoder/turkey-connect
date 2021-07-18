@@ -67,12 +67,12 @@ const Footer = () => {
             <div className={styles.social__icon}>
               <Link href="/">
                 <a>
-                  <img src="/facebook.svg" width={32} height={20} alt="facebook" />
+                  <Image src="/facebook.svg" width={32} height={20} alt="facebook" />
                 </a>
               </Link>
               <Link href="/">
                 <a>
-                  <img
+                  <Image
                     src="/instagram.svg"
                     width={32}
                     height={20}
@@ -82,7 +82,7 @@ const Footer = () => {
               </Link>
               <Link href="/">
                 <a>
-                  <img src="/whatsapp.svg" width={32} height={20} alt="whatsapp" />
+                  <Image src="/whatsapp.svg" width={32} height={20} alt="whatsapp" />
                 </a>
               </Link>
             </div>
